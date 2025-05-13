@@ -1,0 +1,26 @@
+Proprietary License – Intelgency IT Solutions
+
+© 2025 Intelgency IT Solutions. All rights reserved.
+Website: https://intelgency-it-solutions.vercel.app
+
+This website and its contents, including but not limited to the source code, design, layout, text, graphics, images, trademarks, and all other intellectual property, are the exclusive property of Intelgency IT Solutions.
+
+Restrictions
+You are expressly prohibited from:
+
+Copying, reproducing, distributing, modifying, or creating derivative works of any part of this website.
+
+Using any part of the website's code, design, or content for commercial or non-commercial purposes without prior written consent.
+
+Reverse engineering, decompiling, or otherwise attempting to extract the source code or structure of any software or system provided through this website.
+
+Using any automated system, including without limitation "robots," "spiders," or "offline readers," to access the website in a manner that sends more request messages than a human can reasonably produce.
+
+No Warranty
+This website is provided “as is” without warranties of any kind, either express or implied. Intelgency IT Solutions disclaims all warranties, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.
+
+Limitation of Liability
+In no event shall Intelgency IT Solutions be held liable for any damages (including, without limitation, loss of data, revenue, or profit) arising from the use or inability to use the website or its content.
+
+Enforcement
+Any unauthorized use or violation of this license may result in legal action. All rights not expressly granted herein are reserved by Intelgency IT Solutions.
