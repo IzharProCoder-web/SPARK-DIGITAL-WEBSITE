@@ -35,9 +35,7 @@ const Footer = () => {
               height={150}
             />
             <p className="text-base mt-4 text-slate-200 hover:text-white transition-all duration-300">
-              With 5 years of web and app development skills, we have worked on
-              100+ Internet development projects. We are a part of BroLabs
-              Innovation Pvt. Ltd.
+             With 2 years of web development and Video eidtinfg  expertise, we have successfully completed over 20 internet development projects. 
             </p>
           </div>
           <div className="mx-auto text-center md:text-start">
@@ -107,7 +105,7 @@ const Footer = () => {
                 <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
                   <a
                     className="text-sm text-white text-bold flex items-center justify-center md:justify-start gap-2"
-                    href="tel:+92 339 5177899"
+                    href="tel:+92 344 1213809"
                   >
                     <FaPhoneSquareAlt /> +92 344 1213809
                   </a>
@@ -115,9 +113,9 @@ const Footer = () => {
                 <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
                   <a
                     className="text-sm text-white text-sbold flex items-center justify-center md:justify-start gap-2"
-                    href="mailto:intelgencyitsolutions@gmail.com"
+                    href="mailto:sparkdigital288@gmail.com"
                   >
-                    <FaEnvelope /> sparakdigital@gmail.com
+                    <FaEnvelope /> sparkdigital288@gmail.com
                   </a>
                 </li>
                 <li className="mt-8">
