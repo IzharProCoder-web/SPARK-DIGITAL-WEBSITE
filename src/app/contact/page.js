@@ -4,9 +4,9 @@ import MapLocation from "@/components/MapLocation/MapLocation";
 import { PageWrapper } from "../page-wrapper";
 
 export const metadata = {
-  title: "Contact - Digital Marketing Agency / Expert at SEO, SMO",
+  title: "Contact - Spark Digital ",
   description:
-    "All digital marketing services, seo, smo, PPC, web development.",
+    "All digital marketing services, web development, Video Eidting, seo.",
 };
 const Contact = () => {
   return (
@@ -24,7 +24,7 @@ const Contact = () => {
         />
       </PageWrapper>
       <div className="app__container">
-        <MapLocation />
+        {/* <MapLocation /> */}
       </div>
     </>
   );

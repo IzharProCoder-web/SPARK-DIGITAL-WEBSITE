@@ -33,11 +33,11 @@ const ContactAddress = () => {
     <section className="contact-us-wrapper py-16 md:py-32 bg-slate-50">
       <div className="app__container contact-heading text-center mx-w-700 m-auto pb-50 pb-md-30 get-bottom animate">
         <div className="section-title pb-25 animate">
-          <h2 className="text-3xl primary-heading capitalize">
-            Contact us for any <span className="highlight">help</span>
+          <h2 className="text-3xl primary-heading text-[#1E3A8A] capitalize">
+            Contact us for any <span className="text-[#D4A017]">help</span>
           </h2>
         </div>
-        <p className="pt-4 app__text">
+        <p className="pt-4 app__text text-[#1E3A8A]">
           How many days to promote for accurate response, How to manage the
           promotional budget and what to promote?
         </p>
@@ -55,7 +55,7 @@ const ContactAddress = () => {
                 <Image src={image.call} alt="call" />
               </div>
               <div className="contact-card-content mt-4">
-                <h6 className="font-semibold">+92 339 5177899</h6>
+                <h6 className="font-semibold">+92 344 1213809</h6>
               </div>
             </div>
           </motion.div>
@@ -66,7 +66,7 @@ const ContactAddress = () => {
               </div>
               <div className="contact-card-content mt-4">
                 <h6 className="font-semibold">
-                  intelgencyitsolutions@gmail.com
+                  sparkdigital@gmail.com
                 </h6>
               </div>
             </div>
@@ -78,8 +78,7 @@ const ContactAddress = () => {
               </div>
               <div className="contact-card-content mt-4">
                 <h6 className="font-semibold">
-                  Office #11, Ground Floor, MDDC Building, <br /> NUST, H-12,
-                  Islamabad, Pakistan
+                We Have No Office 
                 </h6>
               </div>
             </div>

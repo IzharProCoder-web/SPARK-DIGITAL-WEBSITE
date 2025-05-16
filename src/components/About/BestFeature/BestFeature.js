@@ -43,8 +43,8 @@ const BestFeature = () => {
             whileInView="show"
             className="my-auto"
           >
-            <h1 className="text-4xl lg:text-5xl font-bold mb-4 capitalize text-center text-gray-900">
-              Our <span className="highlight">Values</span>
+            <h1 className="text-4xl lg:text-5xl font-bold mb-4 capitalize text-center text-[#1E3A8A]">
+              Our <span className="text-[#D4A017]">Values</span>
             </h1>
             <div className="text-center text-md mt-3 w-full sm:max-w-[75%] m-auto leading-8">
               <p className="">
@@ -58,11 +58,9 @@ const BestFeature = () => {
             <Image src={image.aboutAni} alt="about" />
           </div>
         </div>
-        <div className="text-center text-xl md:text-2xl text-gray-800 mt-16 w-full sm:max-w-[85%] m-auto font-bold">
+        <div className="text-center text-xl md:text-2xl text-[#1E3A8A] mt-16 w-full sm:max-w-[85%] m-auto font-bold">
           <p className="">
-            Embracing these core values fuels our diverse and inclusive work
-            environment, where everyone feels valued and empowered to contribute
-            their unique talents.
+           Living by these core values creates a welcoming and diverse workplace where everyone feels valued and free to share their unique skills.
           </p>
         </div>
       </div>

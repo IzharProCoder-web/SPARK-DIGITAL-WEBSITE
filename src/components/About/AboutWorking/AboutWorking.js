@@ -10,13 +10,13 @@ const AboutWorking = () => {
           <div>
             <div className="text-center about-padding">
               <div className="section-sub-title">
-                <h4 className="text-lg pb-4 font-normal capitalize">
+                <h4 className="text-lg pb-4 font-normal capitalize text-[#1E3A8A]">
                   know more about us
                 </h4>
               </div>
               <div className="primary-heading">
-                <h2>
-                  Our working <span className="highlight">process</span>
+                <h2 className="text-[#1E3A8A] ">
+                  Our working <span className="text-[#D4A017]">process</span>
                 </h2>
               </div>
             </div>

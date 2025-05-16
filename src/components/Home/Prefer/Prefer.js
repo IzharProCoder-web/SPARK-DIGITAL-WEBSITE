@@ -23,24 +23,29 @@ import flutter from "@/assets/technologies/flutter.png";
 import seo from "@/assets/technologies/seo.webp";
 import googleads from "@/assets/technologies/googleads.webp";
 import reactnativeInner from "@/assets/technologies/reactnative-inner.svg";
+import davinciResolve from "@/assets/technologies/davinciResolve.jpg";
+import finalCutPro from "@/assets/technologies/finalCutPro.png";
+import adobeAfterEffects from "@/assets/technologies/adobeAfterEffects.jpg";
 
 const categories = [
   { id: "webDevelopment", label: "Web Development" },
-  { id: "videoeidting", label: "Video Editing" },
+  { id: "mobileDevelopment", label: "Mobile Development" },
+  { id: "gameDevelopment", label: "Game Development" },
   { id: "graphicDesigning", label: "Graphic Designing" },
   { id: "digitalMarketing", label: "Digital Marketing" },
+  { id: "videoEditing", label: "Video Editing" },
 ];
 
 const technologies = [
-  // Digital Marketing (example placeholders; replace as needed)
+  // Digital Marketing
   {
     name: "SEO",
-    icon: seo, // placeholder, swap with your own icon
+    icon: seo,
     category: "digitalMarketing",
   },
   {
     name: "Google Ads",
-    icon: googleads, // placeholder
+    icon: googleads,
     category: "digitalMarketing",
   },
 
@@ -71,7 +76,7 @@ const technologies = [
     category: "graphicDesigning",
   },
 
-  // Game dev
+  // Game Development
   {
     name: "Unity (Game Dev)",
     icon: unity,
@@ -125,7 +130,7 @@ const technologies = [
     category: "webDevelopment",
   },
 
-  // Mobile dev
+  // Mobile Development
   {
     name: "React Native",
     icon: reactnativeInner,
@@ -135,6 +140,23 @@ const technologies = [
     name: "Flutter",
     icon: flutter,
     category: "mobileDevelopment",
+  },
+
+  // Video Editing
+  {
+    name: "DaVinci Resolve",
+    icon: davinciResolve,
+    category: "videoEditing",
+  },
+  {
+    name: "Final Cut Pro",
+    icon: finalCutPro,
+    category: "videoEditing",
+  },
+  {
+    name: "Adobe After Effects",
+    icon: adobeAfterEffects,
+    category: "videoEditing",
   },
 ];
 
@@ -169,7 +191,7 @@ const TechnologyGrid = ({ items }) => {
   );
 };
 
-const TechnologiesWeUse = ({ mainHeading }) => {
+const TechnologiesWeUse = () => {
   const [activeCategory, setActiveCategory] = useState("webDevelopment");
 
   // Filter the technologies based on the active category
@@ -181,11 +203,8 @@ const TechnologiesWeUse = ({ mainHeading }) => {
     <section className="py-12 md:py-24 bg-slate-50">
       <div className="w-full md:max-w-[80%] bg mx-auto px-4">
         {/* Section Title */}
-        <div className="max-w-3xl mx-auto mb-16">
-          <h2
-            className="primary-heading text-center"
-            dangerouslySetInnerHTML={{ __html: mainHeading }}
-          />
+        <div className="max-w-3xl mx-auto mb-16 text-center text-[30px] font-bold">
+          <h2 className="text-[#1E3A8A]">Technologies <span className="text-[#D4A017]">We Use</span></h2>
         </div>
 
         {/* Tabs (Categories) */}
@@ -195,8 +214,8 @@ const TechnologiesWeUse = ({ mainHeading }) => {
               key={cat.id}
               className={`px-4 py-2 cursor-pointer transition-colors duration-300 border border-gray-300 rounded-lg text-base ${
                 activeCategory === cat.id
-                  ? "text-red-500 font-semibold border-b-2 border-red-500"
-                  : "text-gray-500 font-semibold hover:text-red-500"
+                  ? "text-[#D4A017] font-semibold border-b-2 border-[#D4A017]"
+                  : "text-gray-500 font-semibold hover:text-[#D4A017]"
               }`}
               onClick={() => setActiveCategory(cat.id)}
             >

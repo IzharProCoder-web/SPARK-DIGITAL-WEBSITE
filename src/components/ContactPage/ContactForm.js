@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 "use client";
 import image from "@/constant/Images/image";
 import { sendContactForm } from "@/lib/api";
@@ -15,7 +16,7 @@ const initValues = {
 };
 const initState = { values: initValues };
 
-export default function ContactForm({ heading, color, paragraph }) {
+export default function ContactForm({  color, paragraph }) {
   const [state, setState] = useState(initState);
   const { values } = state;
 
@@ -41,11 +42,8 @@ export default function ContactForm({ heading, color, paragraph }) {
         <form className="w-full md:w-[60%] mb-6">
           <div className="">
             <div className="pb-1">
-              <div className="text-center">
-                <h2
-                  className="text-3xl primary-heading leading-7 capitalize pb-2 text-gray-900"
-                  dangerouslySetInnerHTML={{ __html: heading }}
-                />
+              <div className="text-center text-[30px] font-bold">
+                <h2 className="text-[#1E3A8A]">Get <span className="text-[#D4A017]">in Touch</span></h2>
                 <p className="my-2 text-gray-700 max-w-3xl mx-auto">{paragraph}</p>
               </div>
 

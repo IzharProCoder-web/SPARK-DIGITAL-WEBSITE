@@ -124,7 +124,7 @@
 .primary-btn {
   position: relative;
   /* background-color: #ff5b69; */
-  background-image: linear-gradient(to right, #f32208 0%, #ff6a00  51%, #f32208  100%);
+  background-color: #D4A017 ;
   padding: 12px 24px;
   text-align: center;
   transition: 0.5s;
@@ -234,7 +234,7 @@
 .navbar-btn {
   position: relative;
   /* background-color: #ff5b69; */
-  background-image: linear-gradient(to right, #f32208 0%, #ff6a00  51%, #f32208  100%);
+  background-color: #D4A017;
   padding: 12px 24px;
   text-align: center;
   transition: 0.5s;

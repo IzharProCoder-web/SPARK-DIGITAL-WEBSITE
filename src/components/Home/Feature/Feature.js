@@ -25,15 +25,12 @@ const items = {
   },
 };
 
-const Feature = ({ content, mainHeading }) => {
+const Feature = ({ content }) => {
   return (
     <section className="app__feature py-6 md:py-20">
       <div className="app__container">
-        <div className="max-w-3xl mx-auto mb-16">
-          <h2
-            className="primary-heading text-center"
-            dangerouslySetInnerHTML={{ __html: mainHeading }}
-          />
+        <div className="max-w-3xl mx-auto mb-16 text-center text-[30px] font-bold">
+          <h2 className="text-[#1E3A8A]"> Industries <span className=" text-[#D4A017]"> We Work In color</span></h2>
         </div>
         <motion.div
           variants={variants}
@@ -47,8 +44,8 @@ const Feature = ({ content, mainHeading }) => {
                 <div
                   className={`flex flex-col items-center bg-white drop-shadow-md h-40 w-full p-2 rounded-md`}
                 >
-                  <div className={`h2-feature-icon`}>
-                    {item.icon} {/* Render the Lucide icon here */}
+                  <div className={`h2-feature-icon`} >
+                    {item.icon} 
                   </div>
                   <div className="card-two-content">
                     <div>

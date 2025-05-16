@@ -8,9 +8,9 @@ import WhoWeAreTabs from "@/components/About/WhoWeAreTabs/WhoWeAreTabs";
 import MeetOurTeam from "@/components/About/MeetOurTeam/MeetOurTeam";
 
 export const metadata = {
-  title: "About - Digital Marketing Agency / Expert at SEO, SMO",
+  title: "About - Spark Digital",
   description:
-    "All digital marketing services, seo, smo, PPC, web development.",
+    "All digital marketing services, web development, Video Eidting, seo.",
 };
 const aboutSections = [
   {
@@ -23,10 +23,10 @@ const aboutSections = [
     section: <BestFeature />,
   },
   {
-    section: <MeetOurTeam />,
+    // section: <MeetOurTeam />,
   },
   {
-    section: <Award />,
+    // section: <Award />,
   },
   {
     section: <AboutWorking />,

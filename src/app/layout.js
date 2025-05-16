@@ -14,9 +14,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Intelgency IT Solutions",
+  title: "Spark Digital",
   description:
-    "All digital marketing services, seo, smo, PPC, web development.",
+    "All digital marketing services, web development, Video Eidting, seo.",
 };
 
 export default function RootLayout({ children }) {

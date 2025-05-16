@@ -8,9 +8,9 @@ const Award = () => {
         <div className="">
           <div className="flex justify-center items-center text-center">
             <div>
-              <h1 className="primary-heading mb-5">
+              <h1 className="primary-heading mb-5 text-[#1E3A8A]">
                 Choose Us As Your
-                <span className="highlight"> Business Partner</span>
+                <span className=" text-[#D4A017]"> Business Partner</span>
               </h1>
               <p className="text-gray-900 max-w-6xl mx-auto">
                 We build impactful digital solutions to help your business grow. Our team creates simple, effective 

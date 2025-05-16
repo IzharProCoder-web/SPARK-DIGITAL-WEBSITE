@@ -173,13 +173,7 @@ export default function Home() {
       ),
     },
     { page: <HomeStats /> },
-    {
-      page: (
-        <Test
-          mainHeading={`The Choice of <span class="highlight">Successful</span> Brands`}
-        />
-      ),
-    },
+    
     {
       page: (
         <ContactForm

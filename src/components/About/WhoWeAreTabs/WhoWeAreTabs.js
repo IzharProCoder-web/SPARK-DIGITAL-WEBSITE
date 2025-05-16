@@ -8,24 +8,21 @@ const WhoWeAreTabs = () => {
       id: "whoWeAre",
       label: "WHO WE ARE?",
       content: `
-        Our vision is to forge an equitable future in technological exchange, catalyzing innovation to address some of the most complex challenges in global markets. Together, we hope to shape a more inclusive and interconnected world by challenging the status quo and acting as a resistance to the global inequality and tribalism.
+       Our vision is to create a future where technology drives fairness and fuels innovation, solving complex global market challenges. We aim to forge a connected, inclusive world by pushing boundaries, defying norms, and delivering solutions that unite and empower communities.
       `,
     },
     {
       id: "ourMission",
       label: "Our Mission",
       content: `
-        At Intelgency, our mission is to cultivate the world’s most productive and purpose-driven workplace by harnessing the power of artificial intelligence for habit and factory automation, unlocking over 100 million developer hours per month to fuel innovation at scale and drive true transformation for our partners.
+        At Spark Digital, our mission is to create a highly productive and meaningful workplace by using artificial intelligence to streamline habits and automate processes, freeing up millions of developer hours each month to spark innovation and drive real change for our partners.
       `,
     },
     {
       id: "ourPlan",
       label: "Our Vision",
       content: `
-        Our custom solutions are backed by meticulous research and 
-        analysis; because your other competitors are just one click away 
-        from stealing your audience. We use all your creativity and 
-        resources into shaping your business as a customer magnet.
+     Our tailored solutions are built on careful research and analysis, ensuring you stay ahead of competitors who are just a click away from winning your audience. We channel your creativity and resources into making your business a customer magnet.
       `,
     },
   ];
@@ -37,7 +34,7 @@ const WhoWeAreTabs = () => {
     <section className="py-10 px-4 text-white">
       <div className="w-full mx-auto">
         {/* Tabs (Top Navigation) */}
-        <div className="flex flex-wrap bg-gradient-to-b from-red-600 to-red-500 items-center justify-center space-x-2 sm:space-x-12 border-b border-white/25 pt-2">
+        <div className="flex flex-wrap bg-[#1E3A8A] items-center justify-center space-x-2 sm:space-x-12 border-b border-white/25 pt-2">
           {tabs.map((tab) => (
             <button
               key={tab.id}
