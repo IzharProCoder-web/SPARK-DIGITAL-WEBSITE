@@ -1,6 +1,6 @@
 import logo from "../../assets/logo/logo.png";
 import logo2 from "../../assets/logo/logo2.png";
-import IntelgencyLogo from "../../assets/logo/spark-digital-logo.jpg";
+import IntelgencyLogo from "../../assets/logo/spark-digital-logo.png";
 import BallControl from "../../assets/portfolio/BallControl.png";
 import DirectPortal1 from "../../assets/portfolio/DirectPortal1.png";
 import DirectPortal2 from "../../assets/portfolio/DirectPortal2.png";

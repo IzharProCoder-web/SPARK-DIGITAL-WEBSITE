@@ -46,7 +46,7 @@ const Footer = () => {
                 Quick Links
               </h3>
             </div>
-            <ul className="list-disc list-inside list-none">
+            <ul className="list-disc list-inside ">
               <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
                 <Link href="/">Home</Link>
               </li>
@@ -67,7 +67,7 @@ const Footer = () => {
                 Our Services
               </h3>
             </div>
-            <ul className=" list-disc list-inside list-none">
+            <ul className=" list-disc list-inside ">
               <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
                 <Link href="/services/digital-marketing">
                   Ditigal Marketing
@@ -109,7 +109,7 @@ const Footer = () => {
                     className="text-sm text-white text-bold flex items-center justify-center md:justify-start gap-2"
                     href="tel:+92 339 5177899"
                   >
-                    <FaPhoneSquareAlt /> +92 339 5177899
+                    <FaPhoneSquareAlt /> +92 344 1213809
                   </a>
                 </li>
                 <li className="my-2 text-slate-200 hover:text-white transition-all duration-300">
@@ -117,7 +117,7 @@ const Footer = () => {
                     className="text-sm text-white text-sbold flex items-center justify-center md:justify-start gap-2"
                     href="mailto:intelgencyitsolutions@gmail.com"
                   >
-                    <FaEnvelope /> intelgencyitsolutions@gmail.com
+                    <FaEnvelope /> sparakdigital@gmail.com
                   </a>
                 </li>
                 <li className="mt-8">
@@ -152,7 +152,7 @@ const Footer = () => {
 
       <div className="text-center py-6 mt-4 md:mt-8 lg:mt-12 mb-[4.5rem] md:mb-0">
         <p className="text-sm text-slate-200 hover:text-white transition-all duration-300">
-          © Copyright <a href="#">Intelgency.com</a> 2022. All rights reserved.
+          © Copyright <a href="#">Sprak Ditigal</a> 2020 All rights reserved.
         </p>
       </div>
 
